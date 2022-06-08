@@ -1,3 +1,8 @@
+# SeqTrace
+
+[SeqTrace: a graphical tool for rapidly processing DNA sequencing chromatograms](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3413935/)
+doi: [10.7171/jbt.12-2303-004](https://doi.org/10.7171%2Fjbt.12-2303-004)
+
 SeqTrace is an application for viewing and processing DNA sequencing chromatograms (trace files). SeqTrace makes it easy to quickly generate high-quality finished sequences from a large number of trace files. SeqTrace can automatically identify, align, and compute consensus sequences from matching forward and reverse traces, filter low-quality base calls, and perform end trimming of finished sequences. The finished DNA sequences can then be exported to common sequence file formats, such as FASTA.
 
 SeqTrace also includes a full-featured trace file viewer and editor. You can view your sequencing chromatograms at a variety of scales and zoom levels, simultaneously view matching forward and reverse traces, edit the called bases, and export individual DNA sequences as well as forward/reverse alignments. SeqTrace supports popular trace file formats, including ABIF, [SCF](http://staden.sourceforge.net/manual/formats_unix_2.html), and [ZTR](http://staden.sourceforge.net/manual/formats_unix_12.html).
