@@ -1,6 +1,7 @@
 # SeqTrace
 
 [SeqTrace: a graphical tool for rapidly processing DNA sequencing chromatograms](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3413935/)
+
 doi: [10.7171/jbt.12-2303-004](https://doi.org/10.7171%2Fjbt.12-2303-004)
 
 SeqTrace is an application for viewing and processing DNA sequencing chromatograms (trace files). SeqTrace makes it easy to quickly generate high-quality finished sequences from a large number of trace files. SeqTrace can automatically identify, align, and compute consensus sequences from matching forward and reverse traces, filter low-quality base calls, and perform end trimming of finished sequences. The finished DNA sequences can then be exported to common sequence file formats, such as FASTA.
