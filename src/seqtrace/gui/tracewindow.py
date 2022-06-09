@@ -238,9 +238,9 @@ class TraceWindow(Gtk.Window, CommonDialogs, Observable):
         # These actions are only enabled when there is an active selection.
         self.sel_edit_ag = Gtk.ActionGroup('selected_edit_actions')
         self.sel_edit_ag.add_actions([
-            ('Copy', Gtk.STOCK_COPY, '_Copy selected base(s)        Ctrl + C', '<ctl>c', 'Copy the selected base(s) to the system clipboard', self.copyConsBases),
-            ('Delete', Gtk.STOCK_DELETE, '_Delete selected base(s)  Ctrl + D', '<ctl>d', 'Delete the selected base(s) from the edited sequence', self.deleteConsBases),
-            ('Modify', Gtk.STOCK_EDIT, '_Modify selected base(s)... Ctrl + E', '<ctl>e', 'Edit the selected base(s)', self.editConsBases)
+            ('Copy', Gtk.STOCK_COPY,     '_Copy selected base(s)    Ctrl + C', '<ctl>c', 'Copy the selected base(s) to the system clipboard', self.copyConsBases),
+            ('Delete', Gtk.STOCK_DELETE, '_Delete selected base(s)    D', 'd', 'Delete the selected base(s) from the edited sequence', self.deleteConsBases),
+            ('Modify', Gtk.STOCK_EDIT,   '_Modify selected base(s)... E', 'e', 'Edit the selected base(s)', self.editConsBases)
         ])
 
         self.uim = Gtk.UIManager()
