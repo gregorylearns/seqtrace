@@ -1,3 +1,21 @@
+# SeqTrace Fork
+
+Stuckyb says in one of his replies in the github issues is that he is working on and planning to release the seqtrace updated with python3. Patiently waiting for that. the last issue on the github was posted less than a year ago and there is no reply yet. Stuckyb if you're reading this, thank you for seqtrace, this is awesome.
+
+
+## Changelogs
+
+* Add keyboard shortcuts to sequence viewer window. `D` to delete selected sequence, `E` to edit selected sequence. 
+
+## ToDo
+
+* Right align the shortcut in the right click/edit menu
+* Ship with a default font that has the letter N highlighted or 
+* Figure out how to invert the colors on a single letter # Figured out that it was way easier to spot N entries with a custom font with N changed to black
+
+
+
+
 # SeqTrace
 
 [SeqTrace: a graphical tool for rapidly processing DNA sequencing chromatograms](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3413935/)
